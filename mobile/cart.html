@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart - Eshop</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <main class="front cart-page">
+      <header class="home_header">
+        <span style="cursor: pointer" class="material-icons close go_back">
+          close
+        </span>
+        <h2 class="heading5">My Cart</h2>
+      </header>
+      <div class="home_content">
+        <form action="check_out.html">
+          <div class="cart_content sm_padding">
+            <h3><span>4 items</span> in your cart</h3>
+            <ul class="cart_list">
+              <li>
+                <img src="images/cart_item_01.jpeg" alt="cart_item_01" />
+                <div class="cart_list_info">
+                  <h4>LONG DRESS WITH SLITS</h4>
+                  <h5 class="unit_price">$ 89.00</h5>
+                  <div class="size">
+                    <label for="size">Size</label>
+                    <select name="size" id="size">
+                      <option value="XS">XS</option>
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </div>
+                  <div class="qty">
+                    <label for="quanity">Quanity</label>
+                    <input type="number" min="1" id="quantity" value="1" />
+                  </div>
+                </div>
+                <span
+                  class="material-icons md-dark md-inactive cart_item_del"
+                  style="cursor: pointer"
+                  >cancel</span
+                >
+              </li>
+              <li>
+                <img src="images/cart_item_02.jpeg" alt="cart_item_01" />
+                <div class="cart_list_info">
+                  <h4>LONG DRESS WITH SLITS</h4>
+                  <h5 class="unit_price">$ 95.00</h5>
+                  <div class="size">
+                    <label for="size">Size</label>
+                    <select name="size" id="size">
+                      <option value="XS">XS</option>
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </div>
+                  <div class="qty">
+                    <label for="quanity">Quanity</label>
+                    <input type="number" min="1" id="quantity" value="1" />
+                  </div>
+                </div>
+                <span
+                  class="material-icons md-dark md-inactive cart_item_del"
+                  style="cursor: pointer"
+                  >cancel</span
+                >
+              </li>
+              <li>
+                <img src="images/cart_item_03.jpeg" alt="cart_item_01" />
+                <div class="cart_list_info">
+                  <h4>LONG DRESS WITH SLITS</h4>
+                  <h5 class="unit_price">$ 103.00</h5>
+                  <div class="size">
+                    <label for="size">Size</label>
+                    <select name="size" id="size">
+                      <option value="XS">XS</option>
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </div>
+                  <div class="qty">
+                    <label for="quanity">Quanity</label>
+                    <input type="number" min="1" id="quantity" value="1" />
+                  </div>
+                </div>
+                <span
+                  class="material-icons md-dark md-inactive cart_item_del"
+                  style="cursor: pointer"
+                  >cancel</span
+                >
+              </li>
+              <li>
+                <img src="images/cart_item_04.jpeg" alt="cart_item_01" />
+                <div class="cart_list_info">
+                  <h4>LONG DRESS WITH SLITS</h4>
+                  <h5 class="unit_price">$ 50.00</h5>
+                  <div class="size">
+                    <label for="size">Size</label>
+                    <select name="size" id="size">
+                      <option value="XS">XS</option>
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </div>
+                  <div class="qty">
+                    <label for="quanity">Quanity</label>
+                    <input type="number" min="1" id="quantity" value="1" />
+                  </div>
+                </div>
+                <span
+                  class="material-icons md-dark md-inactive cart_item_del"
+                  style="cursor: pointer"
+                  >cancel</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="cart_total">
+            <div class="shipping">
+              <h6>Shipping cost</h6>
+              <span class="price">$ 59.00</span>
+            </div>
+            <div class="total_price">
+              <h6>TOTAL Price</h6>
+              <span class="price">$ 899.00</span>
+            </div>
+          </div>
+          <button class="btn big">check out</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

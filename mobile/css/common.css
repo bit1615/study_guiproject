@@ -1,0 +1,143 @@
+/* TYPOGRAPHY */
+.body {
+  font-family: "SF UI Display Light";
+  font-size: 15px;
+  color: #4a4a4a;
+}
+
+.heading1 {
+  font-family: "SF UI Display Heavy";
+  font-size: 36px;
+  letter-spacing: 0.29px;
+}
+.heading2 {
+  font-family: "SF UI Display Bold";
+  font-size: 26px;
+  letter-spacing: 0.21px;
+}
+.heading3 {
+  font-family: "SF UI Display Heavy";
+  font-size: 24px;
+  letter-spacing: 0.19px;
+}
+.heading4 {
+  font-family: "SF UI Display Heavy";
+  font-size: 20px;
+}
+.heading5 {
+  font-family: "SF UI Display Semibold";
+  font-size: 20px;
+}
+.heading6 {
+  font-family: "SF UI Display Semibold";
+  font-size: 14px;
+  letter-spacing: 0.11px;
+}
+
+/* Link & Button */
+
+.btn {
+  border: none;
+  background: #262628;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "SF UI Display Medium";
+  letter-spacing: 0.11px;
+}
+.big {
+  font-family: "SF UI Display Semibold";
+  line-height: 50px;
+  font-size: 14px;
+}
+.default {
+  font-size: 13px;
+  line-height: 38px;
+}
+.small {
+  font-size: 13px;
+  line-height: 30px;
+}
+
+p {
+  line-height: 18px;
+}
+.hidden {
+  position: fixed;
+  top: 0;
+  left: -99999em;
+  overflow: hidden;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #f5f5f5;
+  margin: 0px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* ------------- sprite images ------------- */
+
+/* .sprite {
+  background: url(../images/sprite.png) no-repeat;
+  background-size: 376px 600px;
+  display: inline-block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 18px;
+  height: 18px;
+}
+
+.touchevents .sprite {
+  background-image: url(../images/sprite@2x.png);
+}
+
+.sprite.arrow-left {
+  background-position: -236px -150px;
+}
+.sprite.close {
+  background-position: -118px -390px;
+}
+
+*/
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.sm_padding {
+  padding: 0 16px;
+}

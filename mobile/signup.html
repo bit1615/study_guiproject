@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Eshop</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <main class="front">
+      <header class="signup">
+        <span
+          onclick="location.href='index.html'"
+          style="cursor: pointer"
+          class="material-icons md-light"
+        >
+          close
+        </span>
+        <h1 class="heading5">Sign Up</h1>
+      </header>
+      <section class="sub_content">
+        <form action="login.html" class="login_form signup_form">
+          <fieldset>
+            <legend class="hidden">SignUp form</legend>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Your name" />
+            <label for="useremail">Email</label>
+            <input type="text" id="useremail" placeholder="Your email" />
+            <label for="userpassword">Password</label>
+            <input
+              type="password"
+              id="userpassword"
+              placeholder="Your password"
+            />
+            <label for="useremail">Adress</label>
+            <input type="text" id="useraddress" placeholder="Your adress" />
+            <label for="useremail">Phone number</label>
+            <input
+              type="text"
+              id="userphonenumber"
+              placeholder="000-0000-0000"
+              pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+            />
+            <label for="usercountry">Country</label>
+            <input type="text" id="usercountry" placeholder="Your country" />
+          </fieldset>
+          <input type="submit" value="Sign Up" class="btn big" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
